@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            app:srcCompat="@drawable/cake" />
+        <TextView
+            android:id="@+id/kingOfCakes"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:rotationX="-37"
+            android:text="King of Cakes"
+            android:textColor="#633B17"
+            android:textSize="32sp"
+            app:fontFamily="@font/bungee_shade" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            app:srcCompat="@drawable/cake" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:hint="Apellidos" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:hint="Edad"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/incorrectAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:text="La edad minima para participar es de 18 años" />
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:text="He participado en concursos similares" />
+
+    <EditText
+        android:id="@+id/otherContest1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:hint="Escriba el nombre del concurso" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:checkedButton="@id/radioButtonMale">
+        <RadioButton
+            android:id="@+id/radioButtonMale"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Hombre" />
+        <RadioButton
+            android:id="@+id/radioButtonFemale"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Mujer" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="suscribe1"
+        android:text="Inscribirse" />
+
+
+</LinearLayout>

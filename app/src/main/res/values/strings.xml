@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">King of Cakes</string>
+    <string name="king_of_cakes">King of Cakes</string>
+    <string name="has_participado_antes_en_otro_concurso_similar">¿Has participado antes en otro concurso similar?</string>
+    <string name="la_edad_minima_de_inscripcion_es_de_18_a_os">La edad minima de inscripcion es de 18 años</string>
+    <string name="inscribirse">INSCRIBIRSE</string>
+    <string name="nombre">NOMBRE</string>
+    <string name="edad">EDAD</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="nombre_del_concurso">NOMBRE DEL CONCURSO</string>
+    <string name="apellidos">APELLIDOS</string>
+</resources>
